@@ -1,0 +1,190 @@
+
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+	.banner-content {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.features-1::after,
+	.features-2::after,
+	.features-1::before,
+	.features-2::before {
+		display: none;
+	}
+	.pricing-box h3 {
+		font-size: 38px;
+	}
+	.blog-overlay a {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:800px) and (max-width:991px) {
+	.banner-content h2 {
+		font-size: 36px;
+	}
+	.banner-content p {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+	.features-1::after,
+	.features-2::after,
+	.features-1::before,
+	.features-2::before {
+		display: none;
+	}
+	.service-content h4 {
+		font-size: 20px;
+	}
+	.counter-box h4 span {
+		font-size: 42px;
+	}
+	.counter-box h4 {
+		font-size: 20px;
+	}
+	.team-overlay {
+		padding: 10px;
+	}
+	.team-overlay h4 {
+		font-size: 24px;
+	}
+	.team-overlay h4 span {
+		font-size: 13px;
+	}
+	.pricing-box {
+		padding: 40px 10px;
+	}
+	.pricing-box h4 {
+		font-size: 30px;
+	}
+	.pricing-box h3 {
+		font-size: 26px;
+	}
+	.pricing-box ul li {
+		margin-top: 18px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.blog-overlay a {
+		margin: 0 10px;
+		font-size: 15px;
+		display: block;
+	}
+	.contact-form form h3 {
+		font-size: 20px;
+	}
+	.container,
+	.container-fluid,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl,
+	.container-xxl {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+}
+
+@media only screen and (max-width:992px) {
+	.navbar-collapse.collapse.show {
+		background: #fff;
+	}
+	.navbar-nav li a {
+		color: #000;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.pt-100 {
+		padding-top: 40px;
+	}
+	.pb-100 {
+		padding-bottom: 40px;
+	}
+	.container,
+	.container-sm {
+		max-width: 100%;
+	}
+	.header.sticky {
+		padding: 0;
+	}
+	.banner-section .owl-dots {
+		display: none;
+	}
+	.banner-content h2 {
+		font-size: 25px;
+	}
+	.banner-content p {
+		font-size: 14px;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.about-content h4 {
+		font-size: 22px;
+	}
+	.about-content {
+		margin-bottom: 40px;
+	}
+	.about-single {
+		margin-bottom: 30px;
+	}
+	.features-1::after,
+	.features-2::after,
+	.features-1::before,
+	.features-2::before {
+		display: none;
+	}
+	.service-content h4 {
+		font-size: 20px;
+	}
+	.features-section {
+		padding: 30px 20px;
+	}
+	.counter-box {
+		margin-bottom: 40px;
+	}
+	.counter-box span {
+		font-size: 33px;
+		margin-bottom: 8px;
+	}
+	.counter-box h4 {
+		font-size: 26px;
+	}
+	.counter-box h4 span {
+		font-size: 30px;
+	}
+	.single-team {
+		margin-bottom: 45px;
+	}
+	.video-content h2 {
+		font-size: 32px;
+	}
+	.video-content p {
+		font-size: 13px;
+	}
+	.pricing-box {
+		margin-bottom: 45px;
+	}
+	.owl-dots {
+		display: none;
+	}
+	.blog-box {
+		margin-bottom: 45px;
+	}
+	.subscribe-section form input[type="submit"] {
+		padding: 9px 25px;
+	}
+	.contact-form form h3 {
+		font-size: 24px;
+	}
+	.contact-form {
+		padding: 0 8px;
+	}
+}
+
+@media only screen and (max-width:350px) {
+	.subscribe-section form input[type="submit"] {
+		padding: 9px 12px;
+	}
+}
+
